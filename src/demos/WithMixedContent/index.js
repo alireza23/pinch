@@ -1,33 +1,9 @@
-// import React, { useCallback, useRef } from "react";
-// import QuickPinchZoom, { make3dTransformValue } from "react-quick-pinch-zoom";
-// import image1 from "./base_bw.png"; // with import
-
-// function App() {
-//   const imgRef = useRef();
-//   const onUpdate = useCallback(({ x, y, scale }) => {
-//     const { current: img } = imgRef;
-
-//     if (img) {
-//       const value = make3dTransformValue({ x, y, scale });
-
-//       img.style.setProperty("transform", value);
-//     }
-//   }, []);
-
-//   return (
-//     <QuickPinchZoom onUpdate={onUpdate}>
-//       <img ref={imgRef} src={image1} />
-//     </QuickPinchZoom>
-//   );
-// }
-// export default App;
-
 import React, { Component } from "react";
 
-import Base from "./components/Base";
-import image1 from "./base_bw.png"; // with import
+import Base from "../../components/Base";
+
 const containerProps = {
-  className: "border-container",
+  className: "border-container"
 };
 
 export default class WithMixedContent extends Component {
@@ -66,12 +42,36 @@ export default class WithMixedContent extends Component {
         </tbody>
       </table>
 
-      <img
-        ref={innerRef}
-        alt="flow"
-        // Photo by Pascal Habermann on Unsplash
-        src={image1}
-      />
+      <video
+        autoPlay
+        muted
+        crossOrigin="true"
+        playsInline
+        poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
+      >
+        <source
+          src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+          type="video/mp4"
+          size="576"
+        />
+        <source
+          src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4"
+          type="video/mp4"
+          size="720"
+        />
+        <source
+          src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"
+          type="video/mp4"
+          size="1080"
+        />
+
+        <a
+          href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+          download
+        >
+          Download video
+        </a>
+      </video>
     </div>
   );
 

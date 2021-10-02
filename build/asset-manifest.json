@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/pinch/static/css/main.29619a57.chunk.css",
-    "main.js": "/pinch/static/js/main.0514b8dc.chunk.js",
-    "main.js.map": "/pinch/static/js/main.0514b8dc.chunk.js.map",
+    "main.css": "/pinch/static/css/main.e1c639c9.chunk.css",
+    "main.js": "/pinch/static/js/main.6b578c0e.chunk.js",
+    "main.js.map": "/pinch/static/js/main.6b578c0e.chunk.js.map",
     "runtime-main.js": "/pinch/static/js/runtime-main.f52346c2.js",
     "runtime-main.js.map": "/pinch/static/js/runtime-main.f52346c2.js.map",
-    "static/js/2.471f04fa.chunk.js": "/pinch/static/js/2.471f04fa.chunk.js",
-    "static/js/2.471f04fa.chunk.js.map": "/pinch/static/js/2.471f04fa.chunk.js.map",
+    "static/js/2.901d89c9.chunk.js": "/pinch/static/js/2.901d89c9.chunk.js",
+    "static/js/2.901d89c9.chunk.js.map": "/pinch/static/js/2.901d89c9.chunk.js.map",
     "index.html": "/pinch/index.html",
-    "static/css/main.29619a57.chunk.css.map": "/pinch/static/css/main.29619a57.chunk.css.map",
-    "static/js/2.471f04fa.chunk.js.LICENSE.txt": "/pinch/static/js/2.471f04fa.chunk.js.LICENSE.txt",
+    "static/css/main.e1c639c9.chunk.css.map": "/pinch/static/css/main.e1c639c9.chunk.css.map",
+    "static/js/2.901d89c9.chunk.js.LICENSE.txt": "/pinch/static/js/2.901d89c9.chunk.js.LICENSE.txt",
     "static/media/base_bw.123bef2a.png": "/pinch/static/media/base_bw.123bef2a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f52346c2.js",
-    "static/js/2.471f04fa.chunk.js",
-    "static/css/main.29619a57.chunk.css",
-    "static/js/main.0514b8dc.chunk.js"
+    "static/js/2.901d89c9.chunk.js",
+    "static/css/main.e1c639c9.chunk.css",
+    "static/js/main.6b578c0e.chunk.js"
   ]
 }
